@@ -34,7 +34,7 @@ Resources:
           apt-get install -y apache2
           systemctl start apache2
           systemctl enable apache2
-          echo "<html><h1>Welcome to my custom Apache Server by Cloud formation hello!</h1></html>" > /var/www/html/index.html
+          echo "<html><h1>Welcome!</h1></html>" > /var/www/html/index.html
       Tags:
         - Key: "Name"
           Value: "Ubuntu-Apache-Server"
